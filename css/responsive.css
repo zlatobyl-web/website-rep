@@ -19,7 +19,7 @@
 /* only small desktops */
 /* tablets */
 /* only small tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   #hero-area .contents h1 {
     font-size: 28px;
   }
@@ -51,7 +51,7 @@
 }
 
 /* mobile or only mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .section-header .section-title {
     font-size: 20px;
   }
@@ -99,4 +99,77 @@
   .copyright {
     float: left;
   }
+  
+  .yellow-circle{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width:80%;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+.wow-container{
+	justify-content: center;
+}
+
+.top-header {
+	    justify-content: center;
+}
+.top-header-brand {
+
+    margin: auto !important;
+}
+.top-header-brand svg{
+    /* margin-top: 2%; */
+    /* margin-right: auto; */
+    width:90%;
+}
+
+.svg-nav-bar {
+	display:none;
+	
+}
+
+.wow-right {
+    width: 100%;
+	flex: none !important;
+}
+
+.wow-slogan {
+    margin-top: 5%;
+    margin-right: 0 !important;
+}
+
+.wow-slogan img{
+    width: 100% !important;
+    margin-right: 0 !important;
+}
+
+.wow-video img {
+    width: 100% !important;
+}
+
+#about-1-graphics {
+    background-position: center center;
+	min-height: 250px;
+	margin: 1%;
+}
+#about-1-text {
+padding-left:0;
+}
+
+
+#section-1 p{
+font-size: 18px;
+}
+
+.top-header {
+    justify-content: center;
 }

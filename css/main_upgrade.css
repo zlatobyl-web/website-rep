@@ -601,6 +601,65 @@ margin-top:5%;
 
 
 
+#about-1{
+display:flex;
+flex-wrap:wrap;
+justify-content: space-between;
+}
+
+#section-1 p{
+font-size: 29px;
+
+}
+.section-1{
+	background-image: url(../img/sections/wave-about.png);
+    background-repeat: repeat-x;
+	background-position: 0% 60%; 
+}
+
+ #about-2  {
+display:flex;
+flex-wrap:wrap;
+justify-content: top;
+ justify-content: space-between;
+}
+
+#about-2-graphics {
+ position:relative;
+ flex: 2;
+ min-width:290px;
+ background-image: url(../img/sections/about-2-graphics.png);
+ min-height: 220px;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+#about-2-text {
+padding-top:2%;
+text-align:left;
+position:relative;
+flex: 3;
+min-width: 401px;
+}
+#about-1-graphics {
+ flex: 1;
+ background-image: url(../img/sections/about-1-graphics.png);
+  min-width: 344px;
+ min-height: 650px;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+#about-1-text {
+padding-left:3%;
+text-align:left;
+position:relative;
+flex: 1;
+ min-width: 346px;
+}
+
+
+
    /* old*/
 .navbar-brand {
   position: relative;
@@ -702,6 +761,7 @@ margin-top:5%;
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
+	padding-bottom: 125%;
   }
   .navbar-brand {
     position: absolute;
